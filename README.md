@@ -1,75 +1,27 @@
-# Nuxt 3 Minimal Starter
+# Order Flow Simulator (Vue Version)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project is a **Vue.js reimplementation** of my earlier work
 
-## Setup
+It demonstrates how customer orders move through different states:
+- **Pending**
+- **Processing**
+- **Completed**
 
-Make sure to install the dependencies:
+## Features
+- Add and manage orders
+- Update order status step by step (Pending → Processing → Completed)
+- Responsive interface built with Vue.js
+- Cleaner code structure compared to the vanilla JS version
 
-```bash
-# npm
-npm install
+## Tech Stack
+- **Vue.js** (Composition API)
 
-# pnpm
-pnpm install
+## Purpose
+This project was created as a **learning exercise** after I started exploring Vue.js.  
+It improves upon my earlier vanilla JS implementation by:
+- Practicing Vue component-based design
+- Managing state in a more structured way
+- Building a more scalable version of the order management demo
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Project Status
+This is a **practice project** for learning Vue.js.  
